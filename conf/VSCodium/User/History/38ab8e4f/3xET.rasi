@@ -1,0 +1,44 @@
+window {
+    background-color: black;
+    border-radius: 20px;
+    border: 0.1em solid;
+    border-color: #08386e;
+}
+
+mainbox {
+    background-color: black;
+    margin: 1em;
+}
+
+inputbar {
+    background-color: white;
+    border-radius: 20px;
+}
+
+entry {
+    placeholder: "Lauch ";
+}
+
+prompt {
+    enabled: false;
+}
+
+listview {
+    margin-top: 1em;
+    border-radius: 20px;
+}
+
+element {
+    orientation: horizontal;
+    children: [ element-icon, element-text ];
+    spacing: 1em;
+}
+
+element-icon {
+    size: 2.5em;
+}
+
+scrollbar {
+    width: 4px; /* Réduit la largeur de la barre de défilement */
+    handle-color: #555555; /* Couleur de la poignée de la barre de défilement */
+}

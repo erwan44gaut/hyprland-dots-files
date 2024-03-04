@@ -1,0 +1,9 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', 'Fira Code', 'Symbols Nerd Font Mono'",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}

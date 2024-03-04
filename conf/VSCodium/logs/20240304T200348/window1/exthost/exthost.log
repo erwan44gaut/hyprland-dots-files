@@ -1,0 +1,11 @@
+2024-03-04 20:03:50.517 [info] Extension host with pid 1308 started
+2024-03-04 20:03:50.517 [info] Skipping acquiring lock for /home/erwan/.config/VSCodium/User/workspaceStorage/fcc25950eced5433890593742197595f.
+2024-03-04 20:03:50.723 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-04 20:03:50.951 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-04 20:03:50.978 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-04 20:03:50.996 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-04 20:03:51.084 [info] Eager extensions activated
+2024-03-04 20:03:51.142 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-04 20:03:51.145 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-04 20:03:51.155 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-03-04 20:03:51.540 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

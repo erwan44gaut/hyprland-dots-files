@@ -1,0 +1,10 @@
+configuration {    
+    display-drun: "Application:"
+    location: 3;
+}           
+
+window {
+    anchor:     north east;
+    location:   north east;
+    y-offset: 70;
+}

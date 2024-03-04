@@ -1,0 +1,48 @@
+* {
+    background-color: black;
+}
+
+window {
+    border-radius: 20px;
+    border: 0.1em solid;
+    border-color: #08386e;
+}
+
+mainbox {
+    margin: 1em;
+}
+
+inputbar {
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 0 1em 0;
+}
+
+entry {
+    placeholder: "Lauch ";
+    margin: 0 0 0 1em;
+}
+
+prompt {
+    enabled: false;
+}
+
+listview {
+    border-radius: 20px;
+    background-color: black;
+}
+
+element {
+    orientation: horizontal;
+    children: [ element-icon, element-text ];
+}
+
+element-icon {
+    size: 2.5em;
+    padding: 0 0 0 1em;
+}
+
+element-text {
+    padding: 1em 0 0 1em;
+    color: white;
+}

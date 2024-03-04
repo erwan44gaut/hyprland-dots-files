@@ -1,0 +1,24 @@
+* {
+    font-family: 'Fira Code', 'Symbols Nerd Font Mono';
+    font-size: 16px;
+}
+
+#waybar {
+    background-color: transparent;
+    color: #b4befe;
+}
+
+#battery {
+    margin-left: 0.4em;
+}
+
+#pulseaudio,
+#backlight,
+#network,
+#bluetooth {
+    margin: 0 0.4em;
+}
+
+#group-tools {
+    color: aquamarine;
+}

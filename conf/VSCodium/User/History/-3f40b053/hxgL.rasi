@@ -1,0 +1,5 @@
+window {
+    anchor:     north east;
+    location:   north east;
+    y-offset: 20px;
+}

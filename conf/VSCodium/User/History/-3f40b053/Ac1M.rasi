@@ -1,0 +1,4 @@
+configuration {    
+    modes: "window,run,ssh,drun"
+    location: 3;
+}           

@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "module": "app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run --watch src/"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "three": "^0.161.0"
+  }
+}

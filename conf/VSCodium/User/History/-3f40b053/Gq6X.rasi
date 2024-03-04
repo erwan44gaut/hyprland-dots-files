@@ -1,0 +1,18 @@
+/* Modifier la couleur de fond et de texte */
+window {
+    background: #333;
+    border: 2px solid #46d9ff;
+    border-radius: 5px;
+}
+listview {
+    lines: 4;
+    scrollbar: false;
+}
+element {
+    padding: 10px;
+    border-radius: 2px;
+}
+element selected {
+    background-color: #285577;
+    color: #ffffff;
+}

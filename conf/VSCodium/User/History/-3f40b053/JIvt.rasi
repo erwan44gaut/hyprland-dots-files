@@ -1,0 +1,22 @@
+window {
+    anchor:     north east;
+    location:   north east;
+    y-offset: 70;
+}
+
+/* Définition des couleurs */
+* {
+    selected-normal-background: #FF5555; /* Couleur de fond pour l'élément sélectionné */
+    selected-normal-foreground: #FFFFFF; /* Couleur du texte pour l'élément sélectionné */
+    /* Vous pouvez ajouter d'autres définitions de couleurs et de styles ici */
+}
+
+/* Style pour les éléments de liste */
+element {
+    /* Styles par défaut pour les éléments de liste */
+}
+
+element selected {
+    background-color: @selected-normal-background;
+    text-color: @selected-normal-foreground;
+}

@@ -1,0 +1,5 @@
+window {
+    anchor:     north east;
+    width:      100%;
+    padding:    4px;
+}

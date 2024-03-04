@@ -1,0 +1,22 @@
+#waybar {
+    background-color: pink;
+    color: #dddddd;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 1em 0 0 0;
+}
+
+#battery {
+    margin-left: 0.4em;
+}
+
+#pulseaudio,
+#backlight,
+#network,
+#bluetooth {
+    margin: 0 0.4em;
+}
+
+#taskbar,
+#battery {
+    
+}

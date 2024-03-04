@@ -1,0 +1,8 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid'",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false
+}

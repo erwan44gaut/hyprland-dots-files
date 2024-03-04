@@ -1,0 +1,17 @@
+2024-03-04 20:17:29.738 [info] Log level: Info
+2024-03-04 20:17:29.738 [info] Validating found git in: "git"
+2024-03-04 20:17:29.738 [info] Using git "2.44.0" from "git"
+2024-03-04 20:17:29.738 [info] > git rev-parse --show-toplevel [5ms]
+2024-03-04 20:17:29.738 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-03-04 20:17:29.738 [info] Open repository: /home/erwan/hyprland-dots-files
+2024-03-04 20:17:29.741 [info] > git rev-parse --show-toplevel [49ms]
+2024-03-04 20:17:29.743 [info] > git config --get commit.template [61ms]
+2024-03-04 20:17:29.801 [info] > git rev-parse --show-toplevel [17ms]
+2024-03-04 20:17:29.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-03-04 20:17:29.822 [info] > git status -z -uall [5ms]
+2024-03-04 20:17:29.869 [info] > git config --get commit.template [24ms]
+2024-03-04 20:17:29.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [82ms]
+2024-03-04 20:17:29.986 [info] > git status -z -uall [2ms]
+2024-03-04 20:17:30.249 [info] > git check-ignore -v -z --stdin [4ms]
+2024-03-04 20:17:30.567 [info] > git show --textconv :hyprland_install.sh [11ms]
+2024-03-04 20:17:30.576 [info] > git ls-files --stage -- /home/erwan/hyprland-dots-files/hyprland_install.sh [10ms]

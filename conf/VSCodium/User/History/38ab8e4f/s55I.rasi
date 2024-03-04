@@ -1,0 +1,29 @@
+/* mytheme.rasi */
+window {
+    background-color: rgba(27, 34, 46, 0.85); /* Couleur de fond avec transparence */
+    border: 2px solid @foreground; /* Bordure de la fenêtre */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+mainbox {
+    border: { left: 5px; } /* Bordure à gauche du main box */
+    border-color: @alternate-normal-background; /* Couleur de la bordure */
+}
+
+listview {
+    lines: 5; /* Nombre de lignes visibles */
+}
+
+element {
+    border-radius: 5px; /* Coins arrondis des éléments de la liste */
+    padding: 2px 0px; /* Espacement autour des éléments de la liste */
+}
+
+element-icon {
+    size: 1.5em; /* Taille des icônes */
+}
+
+element-text {
+    padding: 2px 10px; /* Espacement autour du texte des éléments */
+    text-color: @foreground; /* Couleur du texte */
+}

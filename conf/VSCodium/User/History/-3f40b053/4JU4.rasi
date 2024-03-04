@@ -1,0 +1,4 @@
+window {
+    anchor:     north east;
+    location:   north east;
+}
