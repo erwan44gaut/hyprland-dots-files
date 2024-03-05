@@ -10,12 +10,6 @@ USER_NAME=$(whoami)
 
 echo -e "${GREEN}Début du script d'installation...${NC}"
 
-# Vérifie si le script est exécuté en tant que root
-if [ "$EUID" -ne 0 ]; then
-  echo -e "${RED}Erreur: Ce script doit être exécuté en tant que root.${NC}"
-  exit
-fi
-
 echo -e "${GREEN}Installation de yay pour la gestion des paquets AUR...${NC}"
 # Installation du gestionnaire de paquets AUR yay
 git clone https://aur.archlinux.org/yay.git
