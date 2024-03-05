@@ -26,7 +26,7 @@ rm -rf yay
 
 echo -e "${GREEN}Mise à jour du système et installation des applications nécessaires...${NC}"
 # Mise à jour du système et installation des paquets avec yay
-yay -Syu hyprland swaylock nerd-fonts waybar grim slurp wl-clipboard hyprpaper thunar rofi wofi brightnessctl visual-studio-code-bin --noconfirm
+yay -Syu hyprland swaylock nerd-fonts waybar grim slurp wl-clipboard hyprpaper thunar rofi wofi brightnessctl visual-studio-code-bin chromium eog --noconfirm
 
 echo -e "${GREEN}Copie des fichiers de configuration vers /home/${USER_NAME}/.config...${NC}"
 # Copie des fichiers de configuration
