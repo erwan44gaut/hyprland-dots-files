@@ -2,31 +2,33 @@
     "layer": "top",
     "position": "top",
     "modules-left": [
-        "wlr/taskbar"
+        "custom/recorder"
     ],
     "modules-center": [
-        "clock"
+        "wlr/taskbar"
     ],
     "modules-right": [
-        "backlight",
-        "pulseaudio",
-        "bluetooth",
         "network",
-        "battery"
+        "bluetooth",
+        "pulseaudio",
+        "backlight",
+        "cpu",
+        "memory",
+        "battery",
+        "clock"
     ],
     "clock": {
-        "format": " {:%H:%M}",
+        "format": "{:%H:%M}",
         "timezone": "Europe/Paris"
     },
     "battery": {
-        "format": "{icon} {capacity}%",
-        "format-plugged": "󰂄 {capacity}%",
+        "format": "{capacity} {icon}",
+        "format-plugged": "{capacity} ",
         "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂂", "󰁹"]
     },
     "backlight": {
-        "format": "{icon} {percent}",
+        "format": "{percent} {icon}",
         "smooth-scrolling-threshold": 1.4,
-        "reverse-scrolling": true,
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "network": {
@@ -35,25 +37,25 @@
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
         "tooltip-format-ethernet": "{ifname}",
         "format-disconnected": "󰖪",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "on-click": "kitty -e nmtui"
     },
     "bluetooth": {
-        "format": "",
+        "format": "",
         "format-disabled": "󰂲",
         "format-connected": "{num_connections} connected",
         "tooltip-format": "{controller_alias}\t{controller_address}",
         "tooltip-format-connected": "{device_enumerate}",
-        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "blueman-manager"
     },
     "pulseaudio": {
         "format": "{icon} {volume}",
-        "reverse-scrolling": true,
         "smooth-scrolling-threshold": 1.4,
         "format-bluetooth": "{icon}{volume}",
-        "format-muted": "",
+        "format-muted": "",
         "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
         "format-icons": {
-            "default": ["", "", "󰕾", ""]
+            "default": ["", "", ""]
         }
     },
     "wlr/taskbar": {
@@ -61,7 +63,21 @@
         "icon-size": 14,
         "icon-theme": "Numix-Circle",
         "tooltip-format": "{name}",
-        "on-click": "activate",
-        "on-click-middle": "close"
+        "on-click": "activate"
+    },
+    "cpu": {
+        "interval": 10,
+        "format": "{} ",
+        "max-length": 10
+    },
+    "memory": {
+        "interval": 30,
+        "format": "{} ",
+        "max-length": 10
+    },
+    "custom/recorder": {
+        "format": "",
+        "interval": 1,
+        "on-click": "~/.config/hypr/scripts/toggle_recording.sh"
     }
 }
