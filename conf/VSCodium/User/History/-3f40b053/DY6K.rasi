@@ -1,9 +1,0 @@
-configuration {
-    location: 3; // En haut à droite
-    // Ajustez selon les besoins
-    y-offset: 0;
-    x-offset: 0;
-    z-offset: 1;
-    // Nombre de lignes à afficher, ajustez selon les besoins
-    lines: 4;
-}

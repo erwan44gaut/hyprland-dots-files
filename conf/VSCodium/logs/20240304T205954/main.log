@@ -1,4 +1,0 @@
-2024-03-04 20:59:54.221 [info] update#setState disabled
-2024-03-04 20:59:54.224 [info] update#ctor - updates are disabled as there is no update URL
-2024-03-04 21:02:09.985 [info] Extension host with pid 835 exited with code: 0, signal: unknown.
-2024-03-04 21:02:09.985 [error] [UtilityProcess id: 1, type: extensionHost, pid: 835]: crashed with code 15 and reason 'killed'

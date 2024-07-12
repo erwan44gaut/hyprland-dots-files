@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# Augmente la luminosité de l'écran
-xrandr --output <votre-écran> --brightness $(echo "$(xrandr --verbose | grep -m 1 'Brightness:' | cut -f2- -d' ') + 0.1" | bc)
-
-# Si vous utilisez la commande xbacklight, vous pouvez utiliser cette ligne à la place :
-# xbacklight -inc 10
